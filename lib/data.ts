@@ -1,0 +1,176 @@
+export const resumeData = {
+  name: 'Marjo Ballabani',
+  title: 'Senior Software Engineer',
+  location: 'Munich, Germany',
+  intro: 'Based in Munich, Germany, I\'m a Senior Software Engineer. I love to work with distributed systems, data pipelines, and cloud technologies. I\'m passionate about microservices, full-stack development, and building cool stuff.',
+  
+  socials: [
+    { label: 'GitHub', url: 'https://github.com/marjoballabani', icon: 'fab fa-github' },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/marjo-ballabani/', icon: 'fab fa-linkedin' },
+    { label: 'Stack Overflow', url: 'https://stackoverflow.com/users/7563517/marjo-ballabani', icon: 'fab fa-stack-overflow' },
+  ],
+  
+  techBadges: [
+    { label: 'Node.js', icon: 'fab fa-node-js' },
+    { label: 'React', icon: 'fab fa-react' },
+    { label: 'Python', icon: 'fab fa-python' },
+    { label: 'JavaScript', icon: 'fab fa-js' },
+    { label: 'HTML', icon: 'fab fa-html5' },
+    { label: 'TypeScript', icon: 'fab fa-css3' },
+    { label: 'Google Cloud', icon: 'fab fa-google' },
+    { label: 'Docker', icon: 'fab fa-docker' },
+  ],
+
+  experience: [
+    {
+      id: 1,
+      title: 'Senior Software Engineer',
+      company: 'Unicepta',
+      period: '2022 - Present',
+      description: 'Leading full-stack development of distributed systems and cloud infrastructure. Architecting microservices and data pipelines for large-scale applications.',
+      skills: ['Node.js', 'React', 'Python', 'GCP', 'Kubernetes', 'Docker'],
+    },
+    {
+      id: 2,
+      title: 'Full-Stack Developer',
+      company: 'Tech Company',
+      period: '2019 - 2022',
+      description: 'Developed and maintained multiple full-stack applications. Implemented CI/CD pipelines and infrastructure automation.',
+      skills: ['Node.js', 'React', 'AWS', 'PostgreSQL', 'Docker'],
+    },
+    {
+      id: 3,
+      title: 'Junior Developer',
+      company: 'Startup',
+      period: '2017 - 2019',
+      description: 'Built features for a SaaS platform. Learned best practices in software development and collaboration.',
+      skills: ['JavaScript', 'React', 'Node.js', 'MongoDB'],
+    },
+  ],
+
+  skills: {
+    'Languages': ['JavaScript', 'TypeScript', 'Python', 'Java', 'Go'],
+    'Frontend': ['React', 'Next.js', 'Vue.js', 'Tailwind CSS', 'Material UI'],
+    'Backend': ['Node.js', 'Express', 'Django', 'FastAPI', 'Spring Boot'],
+    'Databases': ['PostgreSQL', 'MongoDB', 'Redis', 'Elasticsearch'],
+    'Cloud & DevOps': ['Google Cloud', 'AWS', 'Docker', 'Kubernetes', 'CI/CD'],
+    'Tools & Platforms': ['Git', 'Docker', 'Kubernetes', 'Jenkins', 'GitHub Actions'],
+  },
+
+  education: [
+    {
+      school: 'University of Tirana',
+      degree: 'Bachelor of Science',
+      field: 'Computer Science',
+      year: '2015',
+    },
+  ],
+
+  projects: [
+    {
+      id: 1,
+      name: 'LazyFire',
+      description: 'A blazing fast lazy loading library for images and content. Optimized for performance.',
+      url: 'https://marjoballabani.github.io/lazyfire/',
+      tags: ['JavaScript', 'Performance', 'Library'],
+    },
+    {
+      id: 2,
+      name: 'Distributed Cache System',
+      description: 'Built a scalable distributed caching system using Node.js and Redis.',
+      tags: ['Node.js', 'Redis', 'System Design'],
+    },
+    {
+      id: 3,
+      name: 'Real-time Data Pipeline',
+      description: 'Implemented a real-time data processing pipeline using Python and Apache Spark.',
+      tags: ['Python', 'Spark', 'Data Pipeline'],
+    },
+  ],
+
+  contact: {
+    email: 'hello@marjoballabani.me',
+    phone: '+49 (some) number',
+    linkedin: 'https://www.linkedin.com/in/marjo-ballabani/',
+    github: 'https://github.com/marjoballabani',
+  },
+}
+
+export const terminalThemes = [
+  {
+    name: 'default',
+    label: 'Default',
+    vars: {
+      '--bg-color': '#141414',
+      '--text-color': '#ff8c00',
+      '--text-dim': 'rgba(255, 140, 0, 0.7)',
+      '--text-bright': '#ffaa33',
+      '--text-highlight': '#ffcc66',
+      '--text-error': '#ff6b6b',
+      '--border-color': 'rgba(255, 140, 0, 0.3)',
+      '--terminal-bg': '#1a1a1a',
+      '--terminal-highlight': 'rgba(255, 140, 0, 0.1)',
+      '--input-color': '#ff8c00',
+      '--prompt-color': '#ff8c00',
+      '--header-bg': '#0f0f0f',
+      '--success-color': '#98fb98',
+    },
+  },
+  {
+    name: 'dracula',
+    label: 'Dracula',
+    vars: {
+      '--bg-color': '#282a36',
+      '--text-color': '#bd93f9',
+      '--text-dim': 'rgba(189, 147, 249, 0.7)',
+      '--text-bright': '#ff79c6',
+      '--text-highlight': '#f1fa8c',
+      '--text-error': '#ff5555',
+      '--border-color': 'rgba(189, 147, 249, 0.3)',
+      '--terminal-bg': '#2d313f',
+      '--terminal-highlight': 'rgba(189, 147, 249, 0.1)',
+      '--input-color': '#bd93f9',
+      '--prompt-color': '#ff79c6',
+      '--header-bg': '#1e2029',
+      '--success-color': '#50fa7b',
+    },
+  },
+  {
+    name: 'solarized',
+    label: 'Solarized',
+    vars: {
+      '--bg-color': '#002b36',
+      '--text-color': '#2aa198',
+      '--text-dim': 'rgba(42, 161, 152, 0.7)',
+      '--text-bright': '#268bd2',
+      '--text-highlight': '#b58900',
+      '--text-error': '#cb4b16',
+      '--border-color': 'rgba(42, 161, 152, 0.3)',
+      '--terminal-bg': '#073642',
+      '--terminal-highlight': 'rgba(42, 161, 152, 0.1)',
+      '--input-color': '#2aa198',
+      '--prompt-color': '#268bd2',
+      '--header-bg': '#001e26',
+      '--success-color': '#859900',
+    },
+  },
+  {
+    name: 'nord',
+    label: 'Nord',
+    vars: {
+      '--bg-color': '#2e3440',
+      '--text-color': '#88c0d0',
+      '--text-dim': 'rgba(136, 192, 208, 0.7)',
+      '--text-bright': '#81a1c1',
+      '--text-highlight': '#ebcb8b',
+      '--text-error': '#bf616a',
+      '--border-color': 'rgba(136, 192, 208, 0.3)',
+      '--terminal-bg': '#3b4252',
+      '--terminal-highlight': 'rgba(136, 192, 208, 0.1)',
+      '--input-color': '#88c0d0',
+      '--prompt-color': '#81a1c1',
+      '--header-bg': '#242933',
+      '--success-color': '#a3be8c',
+    },
+  },
+]
